@@ -2,8 +2,22 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    border: none;
 }
-.header_logo_text{
+    
+.header{
+    display: flex;
+    justify-content: start;
+}
+
+    
+
+
+.header__logo{
+    width: 533px;
+    margin-left: 375px;
+    padding-top: 35px;
+    display: flex;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -11,22 +25,66 @@
 
 }
 .header__links{
+    display: flex;
+    justify-content: center;
+    padding: 51px;
+    margin-right: 375px;
+    gap: 17px;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
+    line-height: normal;
+
+
     
 }
-.header__button{
-    border-radius: 30px;
-    background: #F25822;
+
+.top{
+    display: flex;
+    height:  700px;
+    width: 1920px;
 }
 .top_main_text{
+    color: #000;
+    font-family: Gilroy-Bold;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
+}
+.top_texts_n_buttons{
+    width: 522px;
+    height: 222px;
+    margin-top: 96px;
+    
+    margin-left: 375px;
+    
+    align-items: center;
+}
 
+.top__photo{
+    margin-top: 96px;
+}
+
+.button__startnow{
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20); 
+    width: 140px;
+    height: 50px; 
+    
+    
+}
+.button__watchvideo{
+    border: #fff;
+    background: #fff;
+    margin-left: 74px;
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
 }
 .top_text{
     font-size: 20px;
@@ -34,17 +92,11 @@
     font-weight: 400;
     line-height: normal; 
     color: #888;
+    margin-bottom: 52px;
+    margin-top: 17px;
 }
-.button__start_now{
-    border-radius: 50px;
-    background: #F25822;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20); 
+.footer__logos{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
 }
-.button__watch_video{
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: #AAA; 
-}
-
